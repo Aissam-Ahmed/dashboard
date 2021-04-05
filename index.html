@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+
+    <!------------------------------  BEGIN  SIDEBAR  -------------------------->
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span><i class="fa fa-tachometer"></i></span><span>Education</span></h2>
+        </div>
+ 
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span><i class="fa fa-home"></i></span><span>Home</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa fa-users"></i></span><span>Students</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa fa-files-o"></i></span><span>Courses</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa fa-calendar"></i></span><span>Categories</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa fa-user-circle""></i></span><span>Trainers</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!------------------------------  END  SIDEBAR  -------------------------->
+
+
+    <!------------------------------  BEGIN  CONTENT  -------------------------->
+    <div class="main-content">
+        <header>
+                <h4>
+                    <label for="nav-toggle">
+                        <span><i class="fa fa-bars"></i></span>
+                    </label>
+                    Dashboard
+                </h4>
+
+                <div class="search-wrapper">
+                    <span><i class="fa fa-search"></i></span>
+                    <input type="search" placeholder="search here">
+                </div>
+
+                <div class="user-wrapper">
+                    <div style="margin-right: 1rem;" class="allowed">    
+                          <div class="dropdown">
+                            <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-comments"></i><span>6</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">message onr</a>
+                              <a class="dropdown-item" href="#">message onr</a>
+                              <a class="dropdown-item" href="#">message onr</a>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bell"></i><span>6</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">notification one</a>
+                              <a class="dropdown-item" href="#">notification one</a>
+                              <a class="dropdown-item" href="#">notification one</a>
+                            </div>
+                          </div>
+
+                        
+                    </div>
+                    <img src="images/A.jfif" alt="" width="40px" height="40px">
+                    <div class="role">
+                        <h6>Aissam Ait</h6>
+                        <small>super admin</small>
+                    </div>
+                </div>
+        </header>
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <p class="h1">224</p>
+                        <span>Courses</span>
+                    </div>
+                    <div>
+                        <span class="fa fa-files-o"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <p class="h1">224</p>
+                        <span>Students</span>
+                    </div>
+                    <div>
+                        <span class="fa fa-users"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <p class="h1">224</p>
+                        <span>Categories</span>
+                    </div>
+                    <div>
+                        <span class="fa fa-calendar"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <p class="h1">224</p>
+                        <span>Pending</span>
+                    </div>
+                    <div>
+                        <span class="fa fa-heartbeat"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Trainers</h3>
+                            <button>See All <span class="las la-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                           <div class="table-responsive">
+                                <table width="100%">
+                                        <thead>
+                                            <tr>
+                                                <td>full name</td>
+                                                <td>speciality</td>
+                                                <td>Status</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>aissam ait ahmed</td>
+                                                <td>UI/UX Design</td>
+                                                <td>
+                                                    review
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>aissam ait ahmed</td>
+                                                <td>Web Development</td>
+                                                <td>
+                                                    review
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>aissam ait ahmed</td>
+                                                <td>UI/UX Design</td>
+                                                <td>
+                                                    review
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4> Students </h4>
+                            <button>
+                                See All <span class="las la-arrow-right"></span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info"> 
+                                    <img src="images/A.jfif" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>aissam ait ahmed</h4>
+                                        <small>web developer</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <a href="#" class="ml-2"><i class="fa fa-pencil-square-o"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-trash" ></i></a>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="customer">
+                                <div class="info"> 
+                                    <img src="images/A.jfif" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>aissam ait ahmed</h4>
+                                        <small>web developer</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <a href="#" class="ml-2"><i class="fa fa-pencil-square-o"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-trash" ></i></a>
+                                </div>
+                            </div>
+                            <hr>
+
+
+                            <div class="customer">
+                                <div class="info"> 
+                                    <img src="images/A.jfif" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>aissam ait ahmed</h4>
+                                        <small>web developer</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <a href="#" class="ml-2"><i class="fa fa-pencil-square-o"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-trash" ></i></a>
+                                </div>
+                            </div>
+                            <hr>
+
+
+                            <div class="customer">
+                                <div class="info"> 
+                                    <img src="images/A.jfif" alt="" width="40px" height="40px">
+                                    <div>
+                                        <h4>aissam ait ahmed</h4>
+                                        <small>web developer</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <a href="#" class="ml-2"><i class="fa fa-pencil-square-o"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="ml-2"><i class="fa fa-trash" ></i></a>
+                                </div>
+                            </div>
+                            <hr>
+
+
+
+                 
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
